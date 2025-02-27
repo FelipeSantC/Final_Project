@@ -89,7 +89,7 @@ void display()
         ssd1306_fill(&ssd, !cor);
         ssd1306_rect(&ssd, 3, 3, 122, 58, cor, !cor);
         ssd1306_draw_string(&ssd, "Motor ON", 8, 10);
-        ssd1306_draw_string(&ssd, "Sent Ant.Hor", 8, 20);
+        ssd1306_draw_string(&ssd, "Sent Horario", 8, 20);
         ssd1306_send_data(&ssd);
     }
     else if (start == true && direcao == 13)
