@@ -248,7 +248,7 @@ void gpio_irq_button(uint gpio, uint32_t events)
         {
             last_print_time = current_time;
 
-            // Alterna o estado dos LEDs PWM (LED2 e LED3)
+            
             if (direcao != 0)
             {
                 start = true;
